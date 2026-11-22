@@ -4,11 +4,12 @@
 
 ## 本地打开
 
-在仓库根目录执行：
+这是一个 Vite + React 项目。在仓库根目录执行：
 
 ```bash
+npm install
 npm test
-python3 -m http.server 4173 --bind 127.0.0.1
+npm run dev
 ```
 
 然后打开 http://127.0.0.1:4173 。

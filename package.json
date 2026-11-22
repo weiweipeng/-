@@ -3,7 +3,17 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test src/engine.test.js",
-    "start": "python3 -m http.server 4173 --bind 127.0.0.1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "node --test src/engine.test.js"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
+    "vite": "^7.2.0"
   }
 }
